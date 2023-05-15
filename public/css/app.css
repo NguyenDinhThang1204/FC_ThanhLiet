@@ -1,0 +1,39 @@
+.container-fluid{
+    margin: 0 100px;
+}
+.header-logo a img {
+    margin-left: 14px;
+}
+.logo2{
+    width: 210px;
+    height: 250px;
+}
+.footer-title{
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-title-text{
+    text-decoration: none;
+    color: #fff; 
+}
+.footer-icon{
+    width: 46px;
+    height: 46px;
+    padding-right: 0;
+}
+.carousel-item{
+    width: 1300px;
+    height: 736px;
+}
+.footer-title-desc-r a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer-title-desc-r p{
+    margin-top: 10px;
+}
+.footer-title-desc-l a{
+    display: block;
+    padding-top: 10px;
+}

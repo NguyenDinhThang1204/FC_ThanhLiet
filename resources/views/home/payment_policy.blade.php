@@ -1,0 +1,1 @@
+<h1>Chính sách thanh toán</h1>
