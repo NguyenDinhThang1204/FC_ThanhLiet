@@ -1,3 +1,4 @@
+/* Header and Footer */
 .container-fluid{
     margin: 0 100px;
 }
@@ -22,10 +23,6 @@
     height: 46px;
     padding-right: 0;
 }
-.carousel-item{
-    width: 1300px;
-    height: 736px;
-}
 .footer-title-desc-r a{
     text-decoration: none;
     margin: 0 5px;
@@ -36,4 +33,124 @@
 .footer-title-desc-l a{
     display: block;
     padding-top: 10px;
+}
+/* Index */
+.carousel{
+    padding: 0 100px;
+}
+#carouselExampleSlidesOnly .carousel-item{
+    width: 1300px;
+    height: 736px;
+}
+.intro{
+    background-color: #212529;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px 200px;
+}
+.news-title,
+.video-title,
+.team-title,
+.intro-title{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.news-title h4,
+.video-title h4,
+.team-title h4{
+    border-left: 4px solid #ffc904;
+    color: #472F92;
+    padding: 0 10px;
+    font-size: 30px;  
+}
+.intro-title h4{
+    border-left: 4px solid #ffc904;
+    color: #ffc904;
+    padding: 0 10px;
+    font-size: 30px;
+    
+}
+.news-title a,
+.video-title a,
+.team-title a{
+    color: #472F92;
+    font-size: 30px;
+}
+.intro-title a{
+    color: #ffc904;
+    font-size: 30px;
+}
+.intro-content{
+    margin-top: 30px;
+    color: #fff;
+}
+.intro-image img{
+    width: 530px;
+    height: 266px;
+    
+}
+.intro-l{
+    margin-right: 25px;
+}
+.news,
+.team{
+    background-color: #F0F0F0;
+    width: auto;
+    height: 500px;
+    padding: 20px 200px;
+
+}
+.team .carousel{
+    margin-top: 30px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #472F92;
+}
+.video{
+    width: auto;
+    height: 500px;
+    margin: 20px 200px;
+}
+.news .item,
+.video .item{
+    background-color: #472F92;
+    width: 350px;
+    height: 320px;
+    border-radius: 6px;
+    margin-top: 30px;
+    
+}
+.listitem{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.news .item .item-img,
+.video .item .item-img{
+    width: 350px;
+    height: 170px;
+
+}
+.item-title{
+    padding: 17px 21px ;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.item-title .desc{
+    color: #ffc904;
+    font-size: 18px;
+    font-weight: 500;
+    height: 70px;
+    flex-grow: 1;
+}
+.item-title .time{
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    margin-top: 30px;
+    flex-grow: 0;
 }
