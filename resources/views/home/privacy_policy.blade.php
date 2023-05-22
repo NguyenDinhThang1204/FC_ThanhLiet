@@ -1,1 +1,12 @@
-<h1>Chính sách bảo mật</h1>
+@extends('layouts.app')
+@section('content')
+<div class="privacy">
+    <div class="title">
+        <p>Chính sách bảo mật</p>
+    </div>
+    <div class="content">
+        
+    </div>
+</div>
+@endsection
+  

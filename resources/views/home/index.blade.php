@@ -101,6 +101,30 @@
     @endforeach
   </div>
 </div>
+{{-- Product --}}
+<div class="product">
+  <div class="product-title">
+    <h4>Sản phẩm</h4>
+    <a href="/product"><i class="fa-solid fa-angles-right"></i></a>
+  </div>
+  <div class="list-product">
+    @foreach($products as $product)
+      <div class="item">
+        <div class="">
+          <img class="item-img" src="{{ asset('images/' . $product->image . '.jpg') }}" alt="">
+        </div>
+        <div class="item-title">
+          <span class="name">{{ $product->name}}</span>
+          <span class="price">{{ $product->price}}</span>
+        </div>
+      </div>
+    @endforeach
+
+  </div>
+  <div class="product-img">
+    <img class="item-img" src="{{ asset('images/product5.jpg') }}" alt="">
+  </div>
+</div>
 @endsection
   
   

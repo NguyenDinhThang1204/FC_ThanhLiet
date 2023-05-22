@@ -49,6 +49,7 @@
     justify-content: space-around;
     padding: 20px 200px;
 }
+.product-title,
 .news-title,
 .video-title,
 .team-title,
@@ -64,6 +65,7 @@
     padding: 0 10px;
     font-size: 30px;  
 }
+.product-title h4,
 .intro-title h4{
     border-left: 4px solid #ffc904;
     color: #ffc904;
@@ -77,6 +79,7 @@
     color: #472F92;
     font-size: 30px;
 }
+.product-title a,
 .intro-title a{
     color: #ffc904;
     font-size: 30px;
@@ -122,6 +125,7 @@
     margin-top: 30px;
     
 }
+.list-product,
 .listitem{
     display: flex;
     flex-wrap: nowrap;
@@ -153,4 +157,29 @@
     font-weight: 500;
     margin-top: 30px;
     flex-grow: 0;
+}
+.product{
+    background-color: #472F92;
+    width: auto;
+    height: 900px;
+    padding: 20px 200px;
+}
+.list-product .item{
+    background-color: #fff;
+    width: 186px;
+    height: 312px;
+    margin: 0 30px;
+    margin-top: 30px;
+}
+.list-product .item img{
+    width: 182px;
+    height: 182px;
+}
+.product-img .item-img{
+    width: 1100px;
+    height: 378px;
+    margin-top: 30px;
+}
+.product-img{
+    text-align: center;
 }

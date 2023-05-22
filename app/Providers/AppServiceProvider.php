@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Models\Video;
 use App\Models\News;
+use App\Models\Product;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -28,5 +29,8 @@ class AppServiceProvider extends ServiceProvider
 
         $news = News::all();
         View::share('news',$news);
+
+        $products = Product::all();
+        View::share('products',$products);
     }
 }
