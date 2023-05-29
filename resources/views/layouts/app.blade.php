@@ -13,7 +13,7 @@
 <header> 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width:40px;" class="rounded-pill"> 
             </a>
             <a class="navbar-brand" href="/intro">Giới thiệu</a>

@@ -171,6 +171,10 @@
     margin: 0 30px;
     margin-top: 30px;
 }
+.list-product .item:hover{
+    box-shadow: 2.5px 2.5px 10px 1px #fff;
+    cursor: pointer;
+}
 .list-product .item img{
     width: 182px;
     height: 182px;
@@ -182,4 +186,20 @@
 }
 .product-img{
     text-align: center;
+}
+/* Privacy Policy */
+.privacy .title{
+    margin-top: 100px;
+}
+.privacy .title h4{
+    text-align: center;
+    /* width: fit-content; */    
+}
+.content{
+    margin: 0 200px 100px 200px;
+    list-style: none;
+    line-height: 2.5;
+}
+.content h6{
+    margin-top: 15px;
 }
