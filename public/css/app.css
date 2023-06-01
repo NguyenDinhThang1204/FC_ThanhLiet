@@ -187,6 +187,83 @@
 .product-img{
     text-align: center;
 }
+/* Intro */
+.intro_page_header{
+    margin: 70px 200px 30px 200px;
+}
+.intro_page_header{ 
+    display: flex;
+    flex-wrap: nowrap;
+}
+.intro_page_header .logo{
+    background-color: #472F92;
+    width: 275px;
+    height: 315px;
+}
+.intro_page_header{
+    background-image: url(https://cms.hanoifc.net/images/45f2b52b-80ce-4d3e-a46c-6dd88b5f322b.jpg?fbclid=IwAR0AV0Nv0481XPbFWxjVF1S2Cfo6vR9CyumGi9naocFljsAIBjz-Cjv7xU0);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
+    
+}
+.intro_page_intro{
+    margin: 0 200px;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0 0 12px 0 #aaa;
+    border-radius: 5px;
+}
+.intro_page_intro_intro p{
+    text-align: justify;
+}
+.intro_page_trophies{
+    margin: 20px 200px;
+    text-align: center;
+    box-shadow: 0 0 12px 0 #aaa;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+.intro_page_leadership{
+    background-color: #F0F0F0;
+    padding: 20px 200px;
+}
+.intro_page_leadership h4{
+    text-align: center;
+    margin: 10px;
+}
+.intro_page_stadium{
+    margin: 20px 200px;
+}
+.intro_page_stadium h4{
+    text-align: center;
+}
+.intro_page_stadium img{
+    width: calc(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Privacy Policy */
 .privacy .title{
     margin-top: 100px;

@@ -69,16 +69,18 @@
   </div>
   <div class="listitem">
     @foreach($videos as $video)
-          <div class="item">
+    @if($loop->iteration <= 3)
+        <div class="item">
             <div class="">
-              <img class="item-img" src="{{ asset('images/' . $video->image . '.jpg') }}" alt="">
+                <img class="item-img" src="{{ asset('images/' . $video->image . '.jpg') }}" alt="">
             </div>
             <div class="item-title">
-              <span class="desc">{{ $video->title}}</span>
-              <span class="time">{{ $video->date}}</span>
+                <span class="desc">{{ $video->title }}</span>
+                <span class="time">{{ $video->date }}</span>
             </div>
-          </div>
-    @endforeach
+        </div>
+    @endif
+@endforeach
   </div>
 </div>
 {{-- Tin tức --}}
@@ -89,6 +91,7 @@
   </div>
   <div class="listitem">
     @foreach($news as $news)
+      @if($loop->iteration <= 3)
           <div class="item">
             <div class="">
               <img class="item-img" src="{{ asset('images/' . $news->image . '.jpg') }}" alt="">
@@ -98,6 +101,7 @@
               <span class="time">{{ $news->date}}</span>
             </div>
           </div>
+      @endif    
     @endforeach
   </div>
 </div>
@@ -109,15 +113,17 @@
   </div>
   <div class="list-product">
     @foreach($products as $product)
-      <div class="item">
-        <div class="">
-          <img class="item-img" src="{{ asset('images/' . $product->image . '.jpg') }}" alt="">
+      @if($loop->iteration <= 4)
+        <div class="item">
+          <div class="">
+            <img class="item-img" src="{{ asset('images/' . $product->image . '.jpg') }}" alt="">
+          </div>
+          <div class="item-title">
+            <span class="name">{{ $product->name}}</span>
+            <span class="price">{{ $product->price}}</span>
+          </div>
         </div>
-        <div class="item-title">
-          <span class="name">{{ $product->name}}</span>
-          <span class="price">{{ $product->price}}</span>
-        </div>
-      </div>
+      @endif  
     @endforeach
 
   </div>
